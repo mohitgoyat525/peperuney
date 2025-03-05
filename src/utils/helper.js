@@ -12,3 +12,22 @@ export const SOCIAL_LIST = [
         link: 'https://www.discord.com/peperuney/'
     }
 ]
+
+export const TEXT_LIST = [
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+]
