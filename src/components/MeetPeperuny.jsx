@@ -120,7 +120,6 @@ const MeetPeperuny = () => {
           />
         </div>
       </div>
-      <CustomPeperuneyAnimation customClass="bg-[#067A52] !h-[100]" />
     </>
   );
 };

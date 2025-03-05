@@ -3,13 +3,13 @@ import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import { TEXT_LIST } from "@/utils/helper";
 
-const CustomPeperuneyAnimation = ({ customClass }) => {
+const CustomPeperuneyAnimation = ({ customClass, imgClass, parentClass }) => {
   return (
     <div
       className={`${customClass} flex items-center border-y-2 border-black w-full h-full`}
     >
-          <Marquee direction="left" speed={50} pauseOnHover gradient={false}>
-        <div className="flex items-center gap-10">
+      <Marquee direction="left" speed={50} pauseOnHover gradient={false}>
+        <div className={`flex items-center gap-10 ${parentClass}`}>
           {TEXT_LIST.map((img, i) => (
             <Image
               key={i}
@@ -17,7 +17,7 @@ const CustomPeperuneyAnimation = ({ customClass }) => {
               alt="peperuney"
               width={233}
               height={40}
-              className="w-full max-w-[233px] max-sm:max-w-[134px] py-[30px]"
+              className={`${imgClass} w-full max-w-[233px] max-sm:max-w-[134px] py-[30px]`}
             />
           ))}
         </div>

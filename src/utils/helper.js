@@ -52,3 +52,9 @@ export const CARDS_LIST = [
       "Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!",
   },
 ];
+
+export const PARTNERS_LIST = [
+  "/assets/images/webp/coin-gecko.webp",
+  "/assets/images/webp/dex-screener.webp",
+  "/assets/images/webp/dex-tools.webp"
+]
