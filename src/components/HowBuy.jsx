@@ -42,7 +42,7 @@ const HowBuy = () => {
             <div className="flex md:flex-row lg:gap-9 gap-5 flex-col justify-center">
               {CARDS_LIST.map((card, index) => (
                 <div
-                  key={card.id}
+                  key={card}
                   className={`w-full md:w-[${card.width}] flex flex-col ${
                     index === 1
                       ? "justify-center items-center md:pt-0 pt-8"
