@@ -95,8 +95,8 @@ const PIzzaNomix = () => {
                 className="lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full pointer-events-none -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8"
               />
             </div>
-            <div className="max-sm:bg-pi zzanomics-card bg-cover bg-no-repeat bg-center relative bg-[url('/assets/images/webp/cards-pizzanomics-bg.webp')] md:pt-[160px] lg:pt-[320px]  max-sm:mt-[184px]">
-              <div className="flex flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8 pt-10 pizzanomics-gradient">
+            <div className="bg-cover bg-no-repeat bg-center relative bg-[url('/assets/images/webp/cards-pizzanomics-bg.webp')] md:pt-[160px] lg:pt-[320px]  max-sm:mt-[184px]">
+              <div className="flex flex-wrap justify-center lg:flex-nowrap lg:flex-row mx-auto max-w-[1240px] w-full px-5 gap-10 xl:gap-[60px] pb-[75px] sm:pb-8 pt-10">
                 <Image
                   src="/assets/images/webp/coin-gecko.webp"
                   alt="coin"
