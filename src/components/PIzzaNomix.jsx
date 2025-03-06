@@ -86,7 +86,6 @@ const PIzzaNomix = () => {
                     height={97}
                   />
                 </button>
-          
               </div>
               <Image
                 src="/assets/images/webp/green-pizza.webp"
