@@ -71,7 +71,7 @@ const HowBuy = () => {
                     </p>
                   </div>
                   {index === 1 && (
-                    <div className="p-3 bg-white border-4 lg:flex hidden border-black mt-9 gap-3 items-center w-full max-w-[350px]">
+                    <div className="p-3 bg-white border-4 lg:flex hidden border-black mt-9 gap-3 items-center w-full min-w-[338px]">
                       <p className="font-school text-lg text-nowrap font-school leading-[27px]">
                         CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0
                       </p>

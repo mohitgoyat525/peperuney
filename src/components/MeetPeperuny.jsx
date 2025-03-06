@@ -34,9 +34,9 @@ const MeetPeperuny = () => {
           className="w-full max-w-[1920px] mx-auto absolute top-0"
         />
         </div>
-        <div className="max-w-[1300px] mx-auto sticky top-0 px-4 max-md:pr-4 max-md:pl-0">
+        <div className="max-w-[1300px] mx-auto sticky top-0 px-4 max-md:pr-4 max-md:pl-0 z-10">
           <div className="flex pt-[350px] max-lg:pt-[180px] max-md:pt-[100px] max-sm:pt-[65px] max-lg:flex-col-reverse">
-            <div className="lg:w-[46%] w-full">
+            <div className="lg:w-[46%] w-full max-sm:pt-10">
               <Image
                 src="/assets/images/webp/delivery-frog-cloud-img.webp"
                 alt="frog"
@@ -74,8 +74,8 @@ const MeetPeperuny = () => {
                     PepeRuney guarantees one thing: the vibes and the dough are
                     always rollin’
                   </p>
-                  <div className="border border-solid w-full max-w-[624px] max-md:max-w-[310px] mx-auto border-[#0E0E0E] my-5"></div>
-                  <div className="flex justify-between mb-4 items-center gap-[49px] max-md:gap-6 max-sm:gap-[61px]">
+                  <div className="border border-solid w-full max-w-[624px] max-md:max-w-[310px] mx-auto border-[#0E0E0E] my-5 max-sm:my-2"></div>
+                  <div className="flex justify-between mb-4 items-center gap-[49px] max-md:gap-6 max-sm:gap-2 max-md:pb-3">
                     <p className="font-school text-[32px] max-md:text-2xl text-[#0E0E0E] leading-[44.56px] max-sm:max-w-[173px] max-md:leading-[33.42px] whitespace-nowrap">
                       FEELS GREAT MAN!
                     </p>
