@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import CustomHeading from "./common/CustomHeading";
-import CustomPeperuneyAnimation from "./common/CustomPeperuneyAnimation";
 const MeetPeperuny = () => {
   return (
     <>
