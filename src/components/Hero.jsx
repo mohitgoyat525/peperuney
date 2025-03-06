@@ -6,7 +6,7 @@ import CustomPeperuneyAnimation from './common/CustomPeperuneyAnimation';
 const Hero = () => {
   return (
     <>
-      <div className='bg-no-repeat bg-cover bg-[url("/assets/images/webp/hero-bg-img.webp")] h-[850px] relative max-md:h-[550px]'>
+      <div className='bg-no-repeat bg-cover bg-[url("/assets/images/webp/hero-bg-img.webp")] h-[850px] relative max-md:h-[550px] max-w-[1920px] mx-auto'>
         <div className="max-w-[1300px] mx-auto px-4">
           <Header />
           <Image
