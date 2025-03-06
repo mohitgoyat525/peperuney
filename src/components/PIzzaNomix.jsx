@@ -17,7 +17,7 @@ const PIzzaNomix = () => {
           alt="text"
           width={888}
           height={99}
-          className="w-full max-w-[888px] absolute z-10 top-[56px] left-[88px] max-md:max-w-[330px] max-md:left-5 max-md:top-5 pointer-events-none"
+          className="w-full max-w-[888px] absolute z-10 top-[56px] left-[88px] max-md:max-w-[358px] max-md:left-5 max-md:top-5 pointer-events-none"
         />
         <div className="flex lg:flex-row flex-col-reverse justify-between gap-5">
           <div className="relative z-10 lg:-mt-10 xl:-mt-20 lg:ml-[60px] xl:ml-[67px]">

@@ -14,8 +14,8 @@ const HowBuy = () => {
           imgClass="!py-0"
         />
       </div>
-      <div className="relative bg-white z-10" id="how-to-buy">
-        <div className="bg-[#06754E] mt-[72px] relative z-10">
+      <div className="relative bg-white z-10">
+        <div className="bg-[#06754E] mt-[72px] max-md:mt-6 relative z-10">
         <Image
           className="absolute sm:top-[-105px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px] bg-[#06754E]"
           src="/assets/images/webp/how-buy-layer.webp"
@@ -24,7 +24,7 @@ const HowBuy = () => {
           alt="how-layer"
           />
           </div>
-        <div className="flex justify-center flex-col items-center pb-10 relative z-10 bg-white translate-y-[48px]">
+        <div className="flex justify-center flex-col items-center pb-10 relative z-10 bg-white translate-y-[48px] max-sm:translate-y-3">
           <Heading
             className="text-center lg:pt-[115px] pt-11"
             text={"HOW TO BUY"}

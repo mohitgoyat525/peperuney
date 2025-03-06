@@ -36,7 +36,7 @@ const MeetPeperuny = () => {
           className="w-full max-w-[1920px] mx-auto absolute top-0"
         />
         </div>
-        <div className="max-w-[1300px] mx-auto sticky top-0 ">
+        <div className="max-w-[1300px] mx-auto sticky top-0 px-4 max-md:pr-4 max-md:pl-0">
           <div className="flex pt-[350px] max-lg:pt-[180px] max-md:pt-[100px] max-sm:pt-[65px] max-lg:flex-col-reverse">
             <div className="lg:w-[46%] w-full">
               <Image
