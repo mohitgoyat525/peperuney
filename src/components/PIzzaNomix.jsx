@@ -6,7 +6,7 @@ const PIzzaNomix = () => {
     <>
       <div className="relative bg-[#DA291C] overflow-hidden max-w-[1920px] mx-auto">
         <Image
-          className="sm:w-full max-w-[972px] w-[972px] relative z-10 object-contain sm:max-w-full"
+          className="sm:w-full max-w-[972px] w-[972px] relative z-10 object-contain sm:max-w-full pointer-events-none"
           src="/assets/images/webp/updated-cheese.webp"
           alt="pizzanomics-layer"
           width={1920}
@@ -17,12 +17,12 @@ const PIzzaNomix = () => {
           alt="text"
           width={888}
           height={99}
-          className="w-full max-w-[888px] absolute z-10 top-[56px] left-[88px] max-md:max-w-[330px] max-md:left-5 max-md:top-5"
+          className="w-full max-w-[888px] absolute z-10 top-[56px] left-[88px] max-md:max-w-[330px] max-md:left-5 max-md:top-5 pointer-events-none"
         />
         <div className="flex lg:flex-row flex-col-reverse justify-between gap-5">
           <div className="relative z-10 lg:-mt-10 xl:-mt-20 lg:ml-[60px] xl:ml-[67px]">
             <Image
-              className="max-w-[301px] sm:max-w-[420px] xl:max-w-[485px] w-full mx-auto lg:mx-0 max-md:pb-4"
+              className="max-w-[301px] sm:max-w-[420px] xl:max-w-[485px] w-full mx-auto lg:mx-0 max-md:pb-4 pointer-events-none"
               width={420}
               height={420}
               src="/assets/images/webp/pepe-runny-image.webp"
@@ -50,7 +50,7 @@ const PIzzaNomix = () => {
             <Image
               src="/assets/images/webp/tax-layer.webp"
               alt="taxLayer"
-              className="sm:w-full object-cover w-[610px] max-w-[610px] sm:max-w-full"
+              className="sm:w-full object-cover w-[610px] max-w-[610px] sm:max-w-full pointer-events-none"
               width={610}
               height={327}
             />
@@ -59,7 +59,7 @@ const PIzzaNomix = () => {
               width={503}
               height={80}
               alt="text"
-              className="absolute z-10  max-md:max-w-[300px] top-[36%] left-1/2 -translate-x-1/2 -translate-y-1/2"
+              className="absolute z-10  max-md:max-w-[300px] top-[36%] left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
             />
           </div>
           <span className="lg:flex bg-crimson-red w-full absolute left-0 hidden -mt-[1px] -top-1 xl:top-10 z-[1] h-24"></span>
@@ -75,14 +75,14 @@ const PIzzaNomix = () => {
                   width={500}
                   height={300}
                 />
-                <p className="font-luckiest mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
+                <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
                   bake to earn
                 </p>
                 <button className="mt-5 sm:block hidden transition-all ease-linear duration-300">
                   <Image
                     src="/assets/images/png/earn-now-btn.png"
                     alt="btn"
-                    className="w-full max-w-[313px]"
+                    className="w-full max-w-[313px] pointer-events-none"
                     width={313}
                     height={97}
                   />
@@ -91,7 +91,7 @@ const PIzzaNomix = () => {
                   <Image
                     src="/assets/images/png/earn-now-btn.png"
                     alt="btn"
-                    className="w-full max-w-[313px]"
+                    className="w-full max-w-[313px] pointer-events-none"
                     width={313}
                     height={97}
                   />
@@ -102,7 +102,7 @@ const PIzzaNomix = () => {
                 width={656}
                 height={828}
                 alt="pizza"
-                className="lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8"
+                className="lg:max-w-[656px] max-w-[468px] mx-auto sm:w-full pointer-events-none -ml-14 sm:mx-auto lg:mx-0 max-sm:-mt-8"
               />
             </div>
             <div className="max-sm:bg-pi zzanomics-card bg-cover bg-no-repeat bg-center relative bg-[url('/assets/images/webp/cards-pizzanomics-bg.webp')] md:pt-[160px] lg:pt-[320px]  max-sm:mt-[184px]">
@@ -112,21 +112,21 @@ const PIzzaNomix = () => {
                   alt="coin"
                   width={360}
                   height={140}
-                  className="lg:w-[30%] md:w-[340px] w-[236px] object-contain h-[92px] sm:h-auto sm:w-[280px]"
+                  className="lg:w-[30%] md:w-[340px] w-[236px] pointer-events-none object-contain h-[92px] sm:h-auto sm:w-[280px]"
                 />
                 <Image
                   width={360}
                   height={140}
                   src="/assets/images/webp/dex-screener.webp"
                   alt="dexScreener"
-                  className="lg:w-[30%] md:w-[340px] w-[236px] object-contain h-[92px] sm:h-auto sm:w-[280px]"
+                  className="lg:w-[30%] md:w-[340px] w-[236px] object-contain h-[92px] sm:h-auto sm:w-[280px] pointer-events-none"
                 />
                 <Image
                   width={360}
                   height={140}
                   src="/assets/images/webp/dex-tools.webp"
                   alt="dexTools"
-                  className="lg:w-[30%] md:w-[340px] w-[236px] object-contain h-[92px] sm:h-auto sm:w-[280px]"
+                  className="lg:w-[30%] md:w-[340px] w-[236px] object-contain h-[92px] sm:h-auto sm:w-[280px] pointer-events-none"
                 />
               </div>
             </div>

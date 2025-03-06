@@ -53,8 +53,3 @@ export const CARDS_LIST = [
   },
 ];
 
-export const PARTNERS_LIST = [
-  "/assets/images/webp/coin-gecko.webp",
-  "/assets/images/webp/dex-screener.webp",
-  "/assets/images/webp/dex-tools.webp"
-]
