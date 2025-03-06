@@ -30,6 +30,14 @@ export const TEXT_LIST = [
     "/assets/images/png/peperuney-text.png",
     "/assets/images/png/peperuney-text.png",
     "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
+    "/assets/images/png/peperuney-text.png",
 ]
 
 export const CARDS_LIST = [
