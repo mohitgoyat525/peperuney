@@ -10,28 +10,34 @@ const HowBuy = () => {
       <div className="h-[130px]">
         <CustomPeperuneyAnimation
           customClass="bg-[#067A52]"
+          parentClass="!relative !z-10"
           imgClass="!py-0"
         />
       </div>
       <div className="relative bg-white z-10" id="how-to-buy">
+        <div className="bg-[#06754E] mt-[72px] relative z-10">
         <Image
-          className="absolute sm:top-[-105px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px]"
+          className="absolute sm:top-[-105px] -top-[60px] w-full h-[69px] sm:h-[164px] lg:h-[195px] bg-[#06754E]"
           src="/assets/images/webp/how-buy-layer.webp"
           width={1920}
           height={777}
           alt="how-layer"
-        />
-        <div className="flex justify-center flex-col items-center pb-10 relative z-10">
-          <Heading className="text-center lg:pt-16 pt-11" text={"HOW TO BUY"} />
+          />
+          </div>
+        <div className="flex justify-center flex-col items-center pb-10 relative z-10 bg-white translate-y-[48px]">
+          <Heading
+            className="text-center lg:pt-[115px] pt-11"
+            text={"HOW TO BUY"}
+          />
           <Image
-            className="sm:max-w-[365px] max-w-[231px] sm:-mt-5 -mt-3 max-sm:h-[80px]"
+            className="sm:max-w-[365px] max-w-[231px] sm:-mt-5 -mt-3 max-sm:h-[80px] pointer-events-none"
             width={365}
             height={105}
             src="/assets/images/webp/how-buy-peperuney.webp"
             alt="how-peperuney"
           />
         </div>
-        <div className="bg-[url('/assets/images/webp/how-to-buy-img.webp')] bg-cover bg-no-repeat bg-center lg:pt-[100px] pt-[63px] sm:pt-16 max-w-[1435px] mx-auto">
+        <div className="bg-[url('/assets/images/webp/how-to-buy-img.webp')] bg-cover bg-no-repeat bg-center lg:pt-[140px] pt-[63px] sm:pt-16 max-w-[1435px] mx-auto">
           <div className="max-w-[1080px] w-full mx-auto px-5">
             <div className="flex md:flex-row lg:gap-9 gap-5 flex-col justify-center">
               {CARDS_LIST.map((card, index) => (
@@ -52,12 +58,12 @@ const HowBuy = () => {
                   >
                     <div className="flex justify-center -mt-[54px]">
                       <div className="bg-black rotate-[-5deg] px-4 py-3 flex justify-center items-center">
-                        <p className="font-luckiest font-normal rotate-[-5deg] lg:text-custom-6xl lg:leading-custom-7xl text-custom-2xl leading-7 text-white">
+                        <p className="font-luckiest font-normal rotate-[-5deg] lg:text-[54px] lg:leading-[100%] text-[28px] leading-7 text-white">
                           {`0${card.id}`}
                         </p>
                       </div>
                     </div>
-                    <h5 className="xl:text-custom-4xl lg:text-custom-2xl lg:leading-7 md:text-xl md:leading-5 text-custom-2xl leading-7 xl:leading-10 lg:max-w-[282px] font-luckiest font-normal text-center mx-auto max-sm:pt-[30px] sm:pt-[10px]">
+                    <h5 className="xl:text-[40px] lg:text-[28px] lg:leading-7 md:text-xl md:leading-5 text-[28px] leading-7 xl:leading-10 lg:max-w-[282px] font-luckiest font-normal text-center mx-auto max-sm:pt-[30px] sm:pt-[10px]">
                       {card.title}
                     </h5>
                     <p className="font-normal font-school md:text-base lg:text-lg text-lg text-center pt-[10px]">

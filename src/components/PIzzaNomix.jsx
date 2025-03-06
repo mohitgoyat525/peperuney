@@ -35,7 +35,7 @@ const PIzzaNomix = () => {
                 42 BILLION
               </p>
             </div>
-            <p className="font-luckiest text-4xl sm:text-[80px] sm:leading-custom-8xl font-normal text-white relative my-5 -rotate-3 text-center">
+            <p className="font-luckiest text-4xl sm:text-[80px] uppercase sm:leading-[80px] font-normal text-white relative my-5 -rotate-3 text-center">
               token supply
             </p>
           </div>
@@ -62,7 +62,6 @@ const PIzzaNomix = () => {
               className="absolute z-10  max-md:max-w-[300px] top-[36%] left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
             />
           </div>
-          <span className="lg:flex bg-crimson-red w-full absolute left-0 hidden -mt-[1px] -top-1 xl:top-10 z-[1] h-24"></span>
         </div>
         <div className="sm:bg-[url('/assets/images/webp/pizzanomics-bg.webp')] bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center max-sm:bg-[url('/assets/images/webp/mobile-view.webp')]">
           <div className="sm:bg-[url('/assets/images/webp/pizzanomics-bg.webp')] max-sm:bg-mobile-layer bg-100 -mt-[207px] bg-cover bg-no-repeat bg-center min-h-[1190px] pt-[162px]">
