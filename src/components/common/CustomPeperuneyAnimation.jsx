@@ -6,7 +6,7 @@ import { TEXT_LIST } from "@/utils/helper";
 const CustomPeperuneyAnimation = ({ customClass, imgClass, parentClass }) => {
   return (
     <div
-      className={`${customClass} flex items-center border-y-2 border-black w-full h-full`}
+      className={`${customClass} flex items-center border-y-[2.50px] max-sm:border-y-2 border-black w-full h-full`}
     >
       <Marquee direction="left" speed={50} pauseOnHover gradient={false}>
         <div className={`flex items-center gap-10 ${parentClass}`}>
