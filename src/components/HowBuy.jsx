@@ -43,7 +43,7 @@ const HowBuy = () => {
               {CARDS_LIST.map((card, index) => (
                 <div
                   key={card}
-                  className={`w-full md:w-[${card.width}] flex flex-col ${
+                  className={`w-full md:w-[332px] flex flex-col ${
                     index === 1
                       ? "justify-center items-center md:pt-0 pt-8"
                       : "justify-end"
