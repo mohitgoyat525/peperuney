@@ -16,7 +16,7 @@ const Header = () => {
         />
       </Link>
       <div className="flex items-center gap-[32px]">
-        <div className=""><Image src='/assets/images/png/english.png' alt='english' width={69} height={31}/></div>
+        <div className=""><Image src='/assets/images/png/english.png' alt='english' width={69} height={31} className='w-full max-w-[69px] max-md:max-w-[50px]'/></div>
         <ul className="flex items-center gap-2">
           {SOCIAL_LIST.map((obj, i) => (
             <li key={i}>
