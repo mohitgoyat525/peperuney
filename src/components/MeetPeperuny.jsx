@@ -27,6 +27,7 @@ const MeetPeperuny = () => {
           height={173}
           className="w-full pointer-events-none max-w-[356px] absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         />
+        <div className="flex items-center justify-center">
         <Image
           src="/assets/images/webp/melting-cheese-top-img.webp"
           alt="cheese"
@@ -34,6 +35,7 @@ const MeetPeperuny = () => {
           height={268}
           className="w-full max-w-[1920px] mx-auto absolute top-0"
         />
+        </div>
         <div className="max-w-[1300px] mx-auto sticky top-0 ">
           <div className="flex pt-[350px] max-lg:pt-[180px] max-md:pt-[100px] max-sm:pt-[65px] max-lg:flex-col-reverse">
             <div className="lg:w-[46%] w-full">
