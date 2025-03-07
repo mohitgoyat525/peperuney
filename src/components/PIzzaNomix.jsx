@@ -17,7 +17,7 @@ const PIzzaNomix = () => {
           alt="text"
           width={888}
           height={99}
-          className="w-full max-w-[888px] absolute z-10 top-[56px] left-[88px] max-md:max-w-[358px] max-md:left-5 max-md:top-5 pointer-events-none"
+          className="w-full max-w-[888px] h-[99px] absolute z-10 top-[56px] left-[88px] max-lg:max-w-[500px] max-md:max-w-[358px] max-sm:h-[38px] max-md:left-5 max-md:top-5 max-lg:left-7 max-lg:top-7 pointer-events-none"
         />
         <div className="flex lg:flex-row flex-col-reverse justify-between gap-5">
           <div className="relative z-10 lg:-mt-10 xl:-mt-20 lg:ml-[60px] xl:ml-[67px]">
@@ -35,13 +35,13 @@ const PIzzaNomix = () => {
                 42 BILLION
               </p>
             </div>
-            <p className="font-luckiest text-4xl sm:text-[80px] uppercase sm:leading-[80px] font-normal text-white relative my-5 -rotate-3 text-center">
+            <p className="font-luckiest text-4xl max-[1280px]:pb-[80px] max-lg:pb-0 sm:text-[80px] uppercase sm:leading-[80px] font-normal text-white relative my-5 -rotate-3 text-center">
               token supply
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between relative lg:-mt-4">
-          <div className="bg-black -rotate-[4deg] -mx-7 xl:h-[111px] lg:w-[630px] px-7 my-auto relative z-10">
+        <div className="flex flex-col lg:flex-row justify-between relative lg:-mt-4 max-[1280px]:mt-[-95px] max-lg:-mt-0">
+          <div className="bg-black -rotate-[4deg] translate-y-[-23px] max-lg:translate-y-0 -mx-7 xl:h-[111px] lg:w-[630px] px-7 my-auto relative z-10">
             <p className="text-white font-luckiest font-normal text-[52px] sm:text-[75px] xl:text-[92px] text-center lg:text-left lg:ml-11 leading-[100%] text-nowrap mb-12 lg:mb-2.5 my-2.5">
               LP BURNED
             </p>
@@ -66,25 +66,21 @@ const PIzzaNomix = () => {
         <div className="sm:bg-[url('/assets/images/webp/pizzanomics-bg.webp')] bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center max-sm:bg-[url('/assets/images/webp/mobile-view.webp')]">
           <div className="sm:bg-[url('/assets/images/webp/pizzanomics-bg.webp')] max-sm:bg-mobile-layer bg-100 -mt-[207px] bg-cover bg-no-repeat bg-center min-h-[1190px] pt-[162px]">
             <div className="flex w-full flex-col lg:flex-row gap-7 sm:gap-12 xl:ml-auto px-5 xl:px-0 xl:mx-11 mx-auto xl:w-fit md:-mb-[200px]">
-              <div className="max-w-[503px] w-full pt-7 mx-auto lg:mx-0 flex flex-col items-center relative z-10">
+              <div className="max-w-[503px] w-full pt-7 mx-auto lg:mx-0 flex flex-col items-center relative z-10 translate-x-[-45px] max-[1280px]:translate-x-0">
                 <Image
                   src="/assets/images/webp/window.webp"
                   alt="window"
-                  className="w-full"
+                  className="w-[500px] max-lg:w-full pointer-events-none"
                   width={500}
                   height={300}
                 />
-                <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-custom-8xl text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
+                <p className="font-luckiest pointer-events-none mt-4 uppercase font-normal text-[52px] sm:text-[80px] text-center leading-[100%] text-white drop-shadow-[6px_6px_0px_#000000]">
                   bake to earn
                 </p>
-                <button className="mt-5  transition-all ease-linear duration-300">
-                  <Image
-                    src="/assets/images/png/earn-now-btn.png"
-                    alt="btn"
-                    className="w-full max-w-[313px] pointer-events-none"
-                    width={313}
-                    height={97}
-                  />
+                <button className=" mt-5 cursor-pointer bg-[url(/assets/images/webp/btn-bg.webp)] bg-[length:100%_100%] lg:min-w-[313px] max-[1280px]:!min-w-[290px] lg:h-[97px] h-[74px] max-lg:!min-w-[230px] max-md:!min-w-[335px]  flex justify-center items-center transition-all ease-linear duration-300  hover:scale-y-110 md:max-w-48 sm:max-w-40 max-w-[132px] w-full">
+                  <h3 className="font-luckiest font-normal lg:text-[36px] !text-2xl text-white lg:px-2 px-1 md:py-3 py-2 whitespace-nowrap lg:py-5">
+                    Earn now
+                  </h3>
                 </button>
               </div>
               <Image

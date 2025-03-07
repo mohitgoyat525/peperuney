@@ -9,7 +9,7 @@ const MeetPeperuny = () => {
           alt="cloud-img"
           width={356}
           height={173}
-          className="w-full pointer-events-none max-w-[356px] absolute top-[180px] left-9"
+          className="w-full pointer-events-none max-w-[356px] absolute top-[240px] left-9"
         />
         <Image
           src="/assets/images/png/top-cloud-img.png"
@@ -26,16 +26,16 @@ const MeetPeperuny = () => {
           className="w-full pointer-events-none max-w-[356px] absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         />
         <div className="flex items-center justify-center">
-        <Image
-          src="/assets/images/webp/melting-cheese-top-img.webp"
-          alt="cheese"
-          width={1920}
-          height={268}
-          className="w-full max-w-[1920px] mx-auto absolute top-0"
-        />
+          <Image
+            src="/assets/images/webp/melting-cheese-top-img.webp"
+            alt="cheese"
+            width={1920}
+            height={268}
+            className="w-full max-w-[1920px] mx-auto absolute top-0 translate-y-[-45px] max-lg:translate-y-0"
+          />
         </div>
         <div className="max-w-[1300px] mx-auto sticky top-0 px-4 max-md:pr-4 max-md:pl-0 z-10">
-          <div className="flex pt-[350px] max-lg:pt-[180px] max-md:pt-[100px] max-sm:pt-[65px] max-lg:flex-col-reverse">
+          <div className="flex pt-[260px] max-lg:pt-[180px] max-md:pt-[100px] max-sm:pt-[65px] max-lg:flex-col-reverse">
             <div className="lg:w-[46%] w-full max-sm:pt-10">
               <Image
                 src="/assets/images/webp/delivery-frog-cloud-img.webp"
@@ -49,7 +49,7 @@ const MeetPeperuny = () => {
               <Image
                 src="/assets/images/png/meet-peperuney-heading-text.png"
                 alt="heading"
-                className="w-full mx-auto max-w-[613px] mb-6"
+                className="w-full mx-auto max-w-[613px] mb-6 max-md:translate-x-[10px]"
                 width={613}
                 height={80}
               />
@@ -75,18 +75,14 @@ const MeetPeperuny = () => {
                     always rollin’
                   </p>
                   <div className="border border-solid w-full max-w-[624px] max-md:max-w-[310px] mx-auto border-[#0E0E0E] my-5 max-sm:my-2"></div>
-                  <div className="flex justify-between mb-4 items-center gap-[49px] max-md:gap-6 max-sm:gap-2 max-md:pb-3">
+                  <div className="flex justify-between mb-4 items-center gap-[49px] max-[1280px]:!gap-6 max-sm:!gap-2 max-md:pb-3">
                     <p className="font-school text-[32px] max-md:text-2xl text-[#0E0E0E] leading-[44.56px] max-sm:max-w-[173px] max-md:leading-[33.42px] whitespace-nowrap">
                       FEELS GREAT MAN!
                     </p>
-                    <button className="w-full max-w-[262px] max-md:min-w-[127px] max-md:max-w-[127px] transition-all ease-linear duration-300 hover:scale-110 cursor-pointer">
-                      <Image
-                        src="/assets/images/png/manifesto-btn.png"
-                        alt="btn"
-                        width={262}
-                        height={74}
-                        className="w-full max-w-[262px] max-md:man-w-[127px]"
-                      />
+                    <button className="cursor-pointer bg-[url(/assets/images/webp/btn-bg.webp)] bg-[length:100%_100%] lg:min-w-[262px] max-[1280px]:!min-w-[220px] max-lg:!min-w-[180px] max-md:!min-w-[126px] flex justify-center transition-all ease-linear duration-300  hover:scale-y-110 md:max-w-48 sm:max-w-40 max-w-[132px] w-full">
+                      <h3 className="font-luckiest font-normal lg:text-[28px] md:text-xl text-sm text-white lg:px-2 px-1 md:py-3 py-2 whitespace-nowrap lg:py-5">
+                        Manifesto
+                      </h3>
                     </button>
                   </div>
                 </div>
@@ -100,14 +96,14 @@ const MeetPeperuny = () => {
             width={356}
             height={173}
             alt="cloud"
-            className="w-full pointer-events-none max-w-[356px] absolute top-[80%] left-[10%]"
+            className="w-full pointer-events-none max-w-[356px] absolute  left-[10%] z-10 max-lg:hidden"
           />
           <Image
             src="/assets/images/png/midum-cloud-img.png"
             width={356}
             height={173}
             alt="cloud"
-            className="w-full pointer-events-none max-w-[356px] absolute bottom-[10%] right-[10%]"
+            className="w-full pointer-events-none max-w-[356px] max-lg:hidden absolute translate-y-[60px] right-[10%] z-10"
           />
         </div>
         <div className="flex items-center justify-center w-full max-lg:mt-[990px">
