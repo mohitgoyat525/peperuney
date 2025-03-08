@@ -5,7 +5,7 @@ import { TelegramIcon } from '@/utils/icons';
 const ClickToEarn = () => {
   return (
     <>
-      <div className='bg-cover bg-center bg-no-repeat bg-[url("/assets/images/webp/click-earn-arcade-bg-img.webp")] h-[900px] max-md:h-full'>
+      <div className='bg-cover bg-center bg-no-repeat bg-[url("/assets/images/webp/click-earn-arcade-bg-img.webp")] h-[900px] max-md:h-full max-w-[1920px] mx-auto'>
         <div className="max-w-[1440px] mx-auto px-4 relative">
           <div className="">
             <div className="relative max-w-[555px] translate-x-[-45px] max-md:translate-x-0 ml-auto z-10 max-md:!mx-auto">

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowBuy from "@/components/HowBuy";
 import MeetPeperuny from "@/components/MeetPeperuny";
 import PIzzaNomix from "@/components/PIzzaNomix";
+import PeperunyTonnes from "@/components/PeperunyTonnes";
 export default function Home() {
   return (
     <>
@@ -10,7 +11,8 @@ export default function Home() {
       <MeetPeperuny />
       <HowBuy />
       <PIzzaNomix/>
-      <ClickToEarn/>
+      <ClickToEarn />
+      <PeperunyTonnes/>
     </>
   );
 }
